@@ -1,0 +1,16 @@
+Experiment 1
+- train2
+- testing ==> predict 2
+
+# Lanjut labelling (ada yang sudah ada yang belum. sisanya tidak ada sampah)
+Experiment 2
+- train3
+
+# Menghapus setengah file frame setiap videonya
+Experiment 3
+- train4
+
+# Nambah footage jalan pake hp (footage bagian terakhir belum dilabeli)
+Experiemnt 4
+- train5
+- val
