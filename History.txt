@@ -14,3 +14,8 @@ Experiment 3
 Experiemnt 4
 - train5
 - val
+
+# 1. Melabeli footage terakhir
+# 2. Untuk objek yang diam, objek dilabeli sebanyak 10 frame saja untuk menghindari duplikat images
+Experiemnt 5
+- train6
