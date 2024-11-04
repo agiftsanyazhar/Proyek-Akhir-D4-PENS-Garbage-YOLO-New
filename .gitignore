@@ -1,9 +1,6 @@
 __pycache__/
 *.pt
 
-# dataset/labels/train.cache
-# dataset/labels/val.cache
-
 dataset/
 footage/
 images/

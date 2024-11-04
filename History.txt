@@ -11,11 +11,15 @@ Experiment 3
 - train4
 
 # Nambah footage jalan pake hp (footage bagian terakhir belum dilabeli)
-Experiemnt 4
+Experiment 4
 - train5
 - val
 
 # 1. Melabeli footage terakhir
 # 2. Untuk objek yang diam, objek dilabeli sebanyak 10 frame saja untuk menghindari duplikat images
-Experiemnt 5
+Experiment 5
 - train6
+
+Experiment 6
+- train7
+- predict 8-13
