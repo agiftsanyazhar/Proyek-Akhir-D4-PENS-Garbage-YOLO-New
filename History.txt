@@ -1,8 +1,8 @@
 Experiment 1
 - train2
-- testing ==> predict 2
+- predict 2
 
-# Lanjut labelling (ada yang sudah ada yang belum. sisanya tidak ada sampah)
+# Melanjutkan labelling (ada yang sudah ada yang belum. Sisanya tidak ada sampah)
 Experiment 2
 - train3
 
@@ -10,16 +10,54 @@ Experiment 2
 Experiment 3
 - train4
 
-# Nambah footage jalan pake hp (footage bagian terakhir belum dilabeli)
+# Menambah footage jalan pake hp (footage bagian terakhir belum dilabeli)
 Experiment 4
 - train5
 - val
 
-# 1. Melabeli footage terakhir
-# 2. Untuk objek yang diam, objek dilabeli sebanyak 10 frame saja untuk menghindari duplikat images
+# 1. Melanjutkan labeling footage terakhir
+# 2. Untuk objek yang diam, objek dilabeli sebanyak 10 frame saja untuk menghindari
+#    duplikat images
 Experiment 5
 - train6
 
+# Melanjutkan labelling sampe selesai
 Experiment 6
 - train7
 - predict 8-13
+
+# 
+Experiment 7
+- train11
+
+
+
+
+
+
+
+
+
+###############
+Random Testing
+###############
+# Testing training pake dataset dari roboflow (
+#    https://universe.roboflow.com/trash-dataset-for-oriented-bounded-box/trash-detection-1fjjc/dataset/14)
+# nc: 5
+# names: ['Glass', 'Metal', 'Paper', 'Plastic', 'Waste']
+Testing 1
+- train8 
+- Hasilnya lebih baik training menggunakan dataset classification daripada convert frame by frame.
+  Karena sampah yang digunakan bervariasi daripada convert frame by frame yang mana sampahnya cuma itu-itu saja
+
+# https://universe.roboflow.com/myfyp/new-taco/dataset/3
+# nc: 12
+# names: ['Bottle', 'Carton', 'Other Litter', 'Other Plastic', 'Paper', 'Plastic Bag', 'Plastic Buoy', 'Plastic Vessels', 'Straw', 'Styrofoam Cup', 'Styrofoam Piece', 'Styrofoam Buoy']
+Testing 2
+- train9
+
+# https://universe.roboflow.com/myfyp/new-taco/dataset/3
+# nc: 22
+# names: ['Aluminium Foil', 'Bottle', 'Bottle Cap', 'Can', 'Carton', 'Cigarette', 'Glass Bottle', 'Lid', 'Metal', 'Metal Cap', 'Other Litter', 'Other Plastic', 'Paper', 'Plastic Bag', 'Plastic Buoy', 'Plastic Vessels', 'Pop Tab', 'Straw', 'Styrofoam Cup', 'Styrofoam Piece', 'Styrofoam Buoy', 'Wrapper']
+Testing 3
+- Train10
