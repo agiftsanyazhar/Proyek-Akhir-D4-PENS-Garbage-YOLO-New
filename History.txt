@@ -1,6 +1,6 @@
 Experiment 1
 - train2
-- predict 2
+- predict2
 
 # Melanjutkan labelling (ada yang sudah ada yang belum. Sisanya tidak ada sampah)
 Experiment 2
@@ -24,11 +24,10 @@ Experiment 5
 # Melanjutkan labelling sampe selesai
 Experiment 6
 - train7
-- predict 8-13
+- predict8-13
 
-# 
 Experiment 7
-- train11
+- train9
 
 
 
@@ -49,15 +48,3 @@ Testing 1
 - train8 
 - Hasilnya lebih baik training menggunakan dataset classification daripada convert frame by frame.
   Karena sampah yang digunakan bervariasi daripada convert frame by frame yang mana sampahnya cuma itu-itu saja
-
-# https://universe.roboflow.com/myfyp/new-taco/dataset/3
-# nc: 12
-# names: ['Bottle', 'Carton', 'Other Litter', 'Other Plastic', 'Paper', 'Plastic Bag', 'Plastic Buoy', 'Plastic Vessels', 'Straw', 'Styrofoam Cup', 'Styrofoam Piece', 'Styrofoam Buoy']
-Testing 2
-- train9
-
-# https://universe.roboflow.com/myfyp/new-taco/dataset/3
-# nc: 22
-# names: ['Aluminium Foil', 'Bottle', 'Bottle Cap', 'Can', 'Carton', 'Cigarette', 'Glass Bottle', 'Lid', 'Metal', 'Metal Cap', 'Other Litter', 'Other Plastic', 'Paper', 'Plastic Bag', 'Plastic Buoy', 'Plastic Vessels', 'Pop Tab', 'Straw', 'Styrofoam Cup', 'Styrofoam Piece', 'Styrofoam Buoy', 'Wrapper']
-Testing 3
-- Train10
