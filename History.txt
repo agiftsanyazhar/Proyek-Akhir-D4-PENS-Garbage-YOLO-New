@@ -26,9 +26,13 @@ Experiment 6
 - train7
 - predict8-13
 
+# Melanjutkan labelling sampe selesai
 Experiment 7
 - train9
 
+# With tacodataset
+Experiment 9
+- train10
 
 
 
