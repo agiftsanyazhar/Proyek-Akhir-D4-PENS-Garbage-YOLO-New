@@ -2,15 +2,15 @@ Experiment 1
 - train2
 - predict2
 
-# Melanjutkan labelling (ada yang sudah ada yang belum. Sisanya tidak ada sampah)
+# 1. Melanjutkan labelling (ada yang sudah ada yang belum. Sisanya tidak ada sampah)
 Experiment 2
 - train3
 
-# Menghapus setengah file frame setiap videonya
+# 1. Menghapus setengah file frame setiap videonya
 Experiment 3
 - train4
 
-# Menambah footage jalan pake hp (footage bagian terakhir belum dilabeli)
+# 1. Menambah footage jalan pake hp (footage bagian terakhir belum dilabeli)
 Experiment 4
 - train5
 - val
@@ -21,34 +21,16 @@ Experiment 4
 Experiment 5
 - train6
 
-# Melanjutkan labelling sampe selesai
+# 1. Melanjutkan labelling sampe selesai
 Experiment 6
 - train7
 - predict8-13
 
-# Melanjutkan labelling sampe selesai
+# 1. Melanjutkan labelling sampe selesai
 Experiment 7
+- train8
+
+# 1. Mencoba training dengan tanbahan parameter augmentasi
+# 2. yolov8s.pt
+Experiment 8
 - train9
-
-# With tacodataset
-Experiment 9
-- train10
-
-
-
-
-
-
-
-
-###############
-Random Testing
-###############
-# Testing training pake dataset dari roboflow (
-#    https://universe.roboflow.com/trash-dataset-for-oriented-bounded-box/trash-detection-1fjjc/dataset/14)
-# nc: 5
-# names: ['Glass', 'Metal', 'Paper', 'Plastic', 'Waste']
-Testing 1
-- train8 
-- Hasilnya lebih baik training menggunakan dataset classification daripada convert frame by frame.
-  Karena sampah yang digunakan bervariasi daripada convert frame by frame yang mana sampahnya cuma itu-itu saja
