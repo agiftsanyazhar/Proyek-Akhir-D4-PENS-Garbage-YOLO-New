@@ -40,7 +40,7 @@ Experiment 8
 Experiment 9
 - train10
 
-# 1. Mencoba training dengan tanbahan parameter augmentasi
+# 1. Mencoba training dengan tambahan parameter augmentasi
 # 2. Mencoba training pakai pc lab unair
 # 3. yolov8m.pt
 Experiment 10
