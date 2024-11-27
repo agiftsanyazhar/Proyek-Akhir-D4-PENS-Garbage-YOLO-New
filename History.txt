@@ -47,6 +47,13 @@ Experiment 10
 - train11
 
 # 1. Menambah dataset
-# 2. yolov8n.pt
+# 2. For sidang
+# 3. yolov8n.pt
 Experiment 11
 - train12
+
+# 1. Menambah dataset
+# 2. For sidang
+# 3. yolov8s.pt
+Experiment 12
+- train13
