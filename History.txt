@@ -10,7 +10,7 @@ Experiment 2
 Experiment 3
 - train4
 
-# 1. Menambah footage jalan pake hp (footage bagian terakhir belum dilabeli)
+# 1. Menambah footage jalan pakai hp (footage bagian terakhir belum dilabeli)
 Experiment 4
 - train5
 
@@ -20,22 +20,23 @@ Experiment 4
 Experiment 5
 - train6
 
-# 1. Melanjutkan labelling sampe selesai
+# 1. Melanjutkan labelling sampai selesai
 Experiment 6
 - train7
 - predict8-13
 
-# 1. Melanjutkan labelling sampe selesai
+# 1. Melanjutkan labelling sampai selesai
 Experiment 7
 - train8
 
-# 1. Mencoba training dengan tanbahan parameter augmentasi
+#################### Augmentation Parameter Start From Here ####################
+# 1. Mencoba training dengan tambahan parameter augmentasi
 # 2. Mencoba training pakai pc lab unair
 # 3. yolov8n.pt
 Experiment 8
 - train9
 
-# 1. Mencoba training dengan tanbahan parameter augmentasi
+# 1. Mencoba training dengan tambahan parameter augmentasi
 # 2. yolov8s.pt
 Experiment 9
 - train10
@@ -52,8 +53,121 @@ Experiment 10
 Experiment 11
 - train12
 
-# 1. Menambah dataset
-# 2. For sidang
-# 3. yolov8s.pt
-Experiment 12
+# 1. Dataset kantin pt. 1
+# 3. yolov8n.pt
+Experiment 13
 - train13
+
+# 1. Dataset kantin pt. 2
+# 3. yolov8n.pt
+Experiment 14
+- train14
+
+
+
+
+
+
+
+
+
+
+#################### IGNORE THIS. NOT INCLUDED IN FINAL PROJECT ####################
+####################
+Plitter and Taco Testing
+####################
+# # 1. Taco Official Selected Class
+# # 2. yolov8n.pt
+# - testing1
+
+# # 1. Taco Unofficial Selected Class
+# # 2. yolov8n.pt
+# - testing2
+
+# 1. Taco Official Selected Class
+# 2. yolov8s.pt
+- testing3
+
+# 1. Taco Unofficial Selected Class
+# 2. yolov8s.pt
+- testing4
+
+# # 1. Taco Official Selected Class
+# # 2. yolov8m.pt
+# - testing5
+
+# # 1. Taco Unofficial Selected Class
+# # 2. yolov8m.pt
+# - testing6
+
+# # 1. Taco Official All Class
+# # 2. yolov8n.pt
+# - testing7
+
+# # 1. Taco Unofficial All Class
+# # 2. yolov8n.pt
+# - testing8
+
+# 1. Taco Official All Class
+# 2. yolov8s.pt
+- testing9
+
+# 1. Taco Unofficial All Class
+# 2. yolov8s.pt
+- testing10
+
+# # 1. Taco Official All Class
+# # 2. yolov8m.pt
+# - testing11
+
+# # 1. Taco Unofficial All Class
+# # 2. yolov8m.pt
+# - testing12
+
+# # 1. Plitter
+# # 2. yolov8n.pt
+# - testing13
+
+# # 1. Plitter
+# # 2. yolov8s.pt
+# - testing14
+
+# # 1. Plitter
+# # 2. yolov8m.pt
+# - testing15
+
+# # 1. Plitter + Taco (Official)
+# # 2. yolov8n.pt
+# - testing16
+
+# # 1. Plitter + Taco (Official)
+# # 2. yolov8s.pt
+# - testing17
+
+# # 1. Plitter + Taco (Official)
+# # 2. yolov8m.pt
+# - testing18
+
+# # 1. Plitter + Taco (Unofficial)
+# # 2. yolov8n.pt
+# - testing19
+
+# # 1. Plitter + Taco (Unofficial)
+# # 2. yolov8s.pt
+# - testing20
+
+# # 1. Plitter + Taco (Unofficial)
+# # 2. yolov8m.pt
+# - testing21
+
+# # 1. Plitter + Taco (All in One)
+# # 2. yolov8n.pt
+# - testing22
+
+# # 1. Plitter + Taco (All in One)
+# # 2. yolov8s.pt
+# - testing23
+
+# # 1. Plitter + Taco (All in One)
+# # 2. yolov8m.pt
+# - testing24

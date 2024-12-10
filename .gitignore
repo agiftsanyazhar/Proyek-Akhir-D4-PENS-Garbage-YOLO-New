@@ -1,7 +1,7 @@
 __pycache__/
 *.pt
 
-dataset/
+dataset*
 footage/
 images/
 output/
